@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Atlan Frontend Task: Mastering SQL Queries
+<strong> Link to the application: https://62a7cba27cec8e18defd8bec--super-klepon-949fee.netlify.app/</strong>
+<br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+Create, design and implement a web-based application capable of running SQL queries and displaying the results of said query. The application must include a space which accepts SQL queries in the form of user inputs, then runs the given query, and displays the result within the application..
 
-In the project directory, you can run:
+## Data 
+The data used in the application is obtained from https://github.com/graphql-compose/graphql-compose-examples/blob/master/examples/northwind/data/csv/orders.csv
 
-### `npm start`
+## JavaScript framework ,major plugins or packages
+- React(Optimize speed as react mimnimize the DOM change)
+- TailwindCSS(For building good-looking layouts easily)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Page Speed and Optimisation
 
-### `npm test`
+For all the page optimisation analysis, I have used Google's Lighthouse tool and Page Speed Insights to analysze the page load time, along with how well it performs as per web standards. I have also used GTMetrix to cross-check the same. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Optimizing the Page Load Time and other metrics
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Minimal dependencies have been used for the creation of this project.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Optiimized the tailwind for production by reducing size of build.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Used Fragments instead of divs to reduce DOM nodes.
 
-### `npm run eject`
+4. In order for the application to be optimized, I have made it a PWA (Progressive Web App) .
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5. Restructured code to reuse components & used minimal imports where necessary.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Functionality
 
-## Learn More
+Detailed walk-through of user interface why and how :-
+https://www.canva.com/design/DAFDh-ZGRDA/ObutE_qKxN1cPQrwSI4jKg/view?utm_content=DAFDh-ZGRDA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton#6
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Page Load Times 
 
-### Code Splitting
+<strong>Homepage Load Time (Mobile) : 0.5 seconds(Google Lighthouse used)</strong>
+Further Detials 
+![Screenshot](https://media.discordapp.net/attachments/768729024397967390/986154915615342612/atlan.png?width=762&height=406)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+<strong>Homepage Load Time : 0.6 seconds(GT metrix used)</strong>
+Further Detials 
+![Screenshot](https://media.discordapp.net/attachments/768729024397967390/986154915313369098/atlan_gt.png?width=897&height=406)
+  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
