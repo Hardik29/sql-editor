@@ -36,8 +36,7 @@ For all the page optimisation analysis, I have used Google's Lighthouse tool and
 ### Functionality
 
 Detailed walk-through of user interface why and how :-
-https://www.canva.com/design/DAFDh-ZGRDA/ObutE_qKxN1cPQrwSI4jKg/view?utm_content=DAFDh-ZGRDA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton#6
-
+https://www.canva.com/design/DAFDh-ZGRDA/ObutE_qKxN1cPQrwSI4jKg/view?utm_content=DAFDh-ZGRDA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ### Page Load Times 
 
